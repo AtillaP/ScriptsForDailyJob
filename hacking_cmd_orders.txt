@@ -1,0 +1,6 @@
+netstat --> shows all active connections on the LAN
+arp -a --> get list all active IP addresses on your network --> displays ARP table actually
+getmac --> returns your MAC addresses
+hostname --> returns your device's hostname
+nslookup --> returns DNS server's IP
+		

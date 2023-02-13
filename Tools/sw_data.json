@@ -1,0 +1,124 @@
+[
+	{
+		"PRJGroup" : "VW_MQB_37W_MP23",
+		"Projects" : [
+			"VF9",
+			"VF7",
+			"VFA",
+			"VFC",
+			"VG9"
+		],
+		"FilePaths" : [
+			{
+				"ComAL_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\ComAL_plugin\\ComAL_VW_MQB_37W_MP23\\Src\\"
+			},
+			{
+				"E2E_Handler_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\E2eHandler_plugin\\E2eHandler_VW_MQB_37W_MP23\\Src\\"
+			},
+			{
+				"MFN_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\MFS_plugin\\MFN_VW_MQB_37W_MP23\\Src\\"
+			},
+			{
+				"MFS_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\MFS_plugin\\MFS_VW_MQB_37W_MP23\\Src\\"
+			},
+			{
+				"DEM_plugin" : "Src\\EBS\\VehComP\\DiagStack\\DiagStack_plugin\\DEM_plugin\\DEM_VW_MQB37W_AURIX\\Src\\"
+			}
+		]
+	},
+	{
+		"PRJGroup" : "VW_MQB_CLASSIC_MP23",
+		"Projects" : [
+			"VF8",
+			"VG8"
+		],
+		"FilePaths" : [
+			{
+				"ComAL_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\ComAL_plugin\\ComAL_VW_MQB_CLASSIC_MP23\\Src\\"
+			},
+			{
+				"E2E_Handler_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\E2eHandler_plugin\\E2eHandler_VW_MQB_CLASSIC_MP23\\Src\\"
+			},
+			{
+				"MFN_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\MFS_plugin\\MFN_VW_MQB_CLASSIC_MP23\\Src\\"
+			},
+			{
+				"MFS_Plugin" : "\\Src\\EBS\\VehComP\\ComAsw\\ComAsw_plugin\\MFS_plugin\\MFS_VW_MQB_CLASSIC_MP23\\Src\\"
+			},
+			{
+				"DEM_plugin" : "Src\\EBS\\VehComP\\DiagStack\\DiagStack_plugin\\DEM_plugin\\DEM_VW_CLASSIC_AURIX\\Src\\"
+			}
+		]
+	},
+	{
+		"CommonData" : {
+			"CommonPaths" : [
+				{
+					"ComAswCore_gen" : "Src\\EBS\\VehComP\\ComAsw\\ComAsw_generic\\ComAswCore\\Src\\gen\\"
+				},
+				{
+					"MFS" : "Src\\EBS\\VehComP\\ComAsw\\ComAsw_generic\\MFS\\Src\\"
+				}
+			],
+			"SourceFileNames" : [
+				{
+					"MFSTable" : "mon_bus_intsig_system_cfg.c"
+				},
+				{
+					"MFSTableCD" : "mon_bus_intsig_codeg_table_cd.c"
+				},
+				{
+					"MFSTableQM" : "mon_bus_intsig_codeg_table_qm.c"
+				},
+				{
+					"MFSMFNMapping" : "mon_bus_intsig_netmon_map_cfg_setup.c"
+				},
+				{
+					"MFNTable" : "network_monitor_system_cfg_setup.c"
+				},
+				{
+					"DEMFile" : "Dem_Lcfg.c"
+				},
+				{
+					"pramFile" : "PARAMComAsw.c"
+				}
+			],
+			"PpcFileNames" : [
+				{
+					"MFSTableActive" : "mon_bus_intsig_system_cfg.ppc"
+				},
+				{
+					"MFSTableCD" : "mon_bus_intsig_codeg_table_cd.ppc"
+				},
+				{
+					"MFSTableQM" : "mon_bus_intsig_codeg_table_qm.ppc"
+				},
+				{
+					"MFSMFNMapping" : "mon_bus_intsig_netmon_map_cfg_setup.ppc"
+				}
+			],
+			"CidlFileNames" : [
+				{
+					"MFNTypesCidl" : "MFN_plugin_cfg_project_types.cidl"
+				},
+				{
+					"PSBTypesCidl" : "ComAL_plugin_cfg_procstates_types.cidl"
+				},
+				{
+					"MFSPluginTypesCidl" : "MFS_MfnMap_plugin_cfg_project_types.cidl"
+				},
+				{
+					"BusExtFailuresCidl" : "MFN_plugin_Failure_bit_field_bus_mfn.cidl"
+				},
+				{
+					"BusExtFailuresGenCidl" : "MFN_plugin_Failure_bit_field_bus_mfn_gen_id.cidl"
+				}
+			],
+			"flame" : 
+			{
+				"global" : "\\FLAME_CONFIG\\ComAsw_conf_global.h",
+				"local" : "\\FLAME_CONFIG\\ComAsw_conf_local.h"
+			}
+		}
+	}
+]
